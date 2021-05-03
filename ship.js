@@ -18,7 +18,7 @@ module.exports.run = async (Client, message, args, prefix) => {
     .setTitle('They are born for each others')
     .setThumbnail('https://cdn.discordapp.com/attachments/824906735176253450/828555115593859123/9k.png')
     .setDescription(`${message.author} shipped with ${user} and it is ${RN}%`)
-    .setColor("GREEN")
+    .setColor("PINK")
 
     if(RN > 50) {
         message.channel.send(loveEmbed)
